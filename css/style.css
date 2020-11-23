@@ -160,7 +160,7 @@
 	position: absolute;
 	left: 489px;
 	top: 30px;
-	animation: leftl-big 4s step-start infinite;
+	animation: leftl-big 120s linear infinite;
 	transform:rotate(0deg) scale(1.8);
 	z-index: 6;
 }
@@ -189,7 +189,7 @@
 	100%{transform: rotate(360deg) scale(1)}
 }
 @keyframes leftl-big{
-	0%{transform: rotate(-36deg) scale(1.8)}
+/*	0%{transform: rotate(-36deg) scale(1.8)}
 	5%{transform: rotate(-54deg) scale(1.8)}
 	10%{transform: rotate(-72deg) scale(1.8)}
 	15%{transform: rotate(-90deg) scale(1.8)}
@@ -208,6 +208,6 @@
 	80%{transform: rotate(-324deg) scale(1.8)}
 	85%{transform: rotate(-342deg) scale(1.8)}
 	90%{transform: rotate(-360deg) scale(1.8)}
-	95%{transform: rotate(-18deg) scale(1.8)}
-	100%{transform: rotate(-36deg) scale(1.8)}
+	95%{transform: rotate(-18deg) scale(1.8)}*/
+	100%{transform: rotate(360deg) scale(1.8)}
 }
